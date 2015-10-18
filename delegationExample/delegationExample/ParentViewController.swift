@@ -17,8 +17,6 @@ class ParentViewController: UIViewController {
   @IBOutlet var label: UILabel?
   var childTableViewController = ChildTableViewController()
   
-  
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
